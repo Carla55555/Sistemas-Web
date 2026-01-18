@@ -10,8 +10,10 @@ The project is divided into two main parts:
 - A frontend developed with React and TypeScript that functions as a web application.
 
 ## URLs (online)                #HACERRRRRRRrrrrrrrrrr
+- **Backend (FastAPI):** https://ecommerce-backend-mqhb.onrender.com
+- **Backend (FastAPI): Documentation** https://ecommerce-backend-mqhb.onrender.com/docs
 - **Frontend (React):** 
-- **Backend (FastAPI):** 
+
 
 ## How to run the project locally
 The project is divided into two parts: backend and frontend. The backend must be started first, and then the frontend.
