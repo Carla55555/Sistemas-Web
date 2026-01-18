@@ -9,10 +9,10 @@ The project is divided into two main parts:
 
 - A frontend developed with React and TypeScript that functions as a web application.
 
-## URLs (online)                #HACERRRRRRRrrrrrrrrrr
+## URLs (online)   
 - **Backend (FastAPI):** https://ecommerce-backend-mqhb.onrender.com
 - **Backend (FastAPI): Documentation** https://ecommerce-backend-mqhb.onrender.com/docs
-- **Frontend (React):** 
+- **Frontend (React):** https://sistemas-m44962wk4-carla-domenechs-projects.vercel.app/
 
 
 ## How to run the project locally

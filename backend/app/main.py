@@ -34,6 +34,7 @@ app = FastAPI(title="E-Commerce API", lifespan=lifespan)
 origins = [
     "http://localhost:5173",
     "http://127.0.0.1:5173",
+    "https://sistemas-web-three.vercel.app",
     "https://sistemas-m44962wk4-carla-domenechs-projects.vercel.app",
 ]
 
