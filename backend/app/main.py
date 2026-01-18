@@ -31,10 +31,16 @@ async def lifespan(app: FastAPI):
 #create the FastAPI app
 app = FastAPI(title="E-Commerce API", lifespan=lifespan)
 
+origins = [
+    "http://localhost:5173",
+    "http://127.0.0.1:5173",
+    "https://sistemas-m44962wk4-carla-domenechs-projects.vercel.app",
+]
+
 #enable CORS for frontend requests
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=origins,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
