@@ -12,7 +12,8 @@ The project is divided into two main parts:
 ## URLs (online)   
 - **Backend (FastAPI):** https://ecommerce-backend-mqhb.onrender.com
 - **Backend (FastAPI): Documentation** https://ecommerce-backend-mqhb.onrender.com/docs
-- **Frontend (React):** https://sistemas-m44962wk4-carla-domenechs-projects.vercel.app/
+- **Frontend (React):** https://sistemas-web-three.vercel.app/orders 
+https://sistemas-m44962wk4-carla-domenechs-projects.vercel.app/
 
 
 ## How to run the project locally
