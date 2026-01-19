@@ -12,6 +12,8 @@ pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 
 #convert a normal password into a hashed password
 def hash_password(password: str) -> str:
+    if len(password.encode("utf-8")) > 72:
+        raise ValueError("Password too long (max 72 bytes for bcrypt)")
     return pwd_context.hash(password)
 
 #check if a normal password matches the hashed password
@@ -31,3 +33,5 @@ def decode_token(token: str) -> dict[str, Any]:
         return jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])
     except JWTError:
         return {}
+    
+
